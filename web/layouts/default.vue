@@ -81,6 +81,11 @@ export default {
           title: 'Inspire',
           to: '/inspire',
         },
+        {
+          icon: 'mdi-chart-bubble',
+          title: 'Example PDF',
+          to: '/pdf/1234',
+        },
       ],
       miniVariant: false,
       right: true,
