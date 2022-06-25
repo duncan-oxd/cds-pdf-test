@@ -1,5 +1,5 @@
 <template>
-  <main :class="{ 'pdf-ready': ready }">
+  <article :class="{ 'pdf-ready': ready }">
     <h1 class="mb-3">PDF ID#{{ $route.params.id }}</h1>
 
     <p>This could be an ROP report or something...</p>
@@ -25,7 +25,7 @@
     <h1>Another page</h1>
 
     <p>the PDF is 2 pages long!</p>
-  </main>
+  </article>
 </template>
 
 <script>
