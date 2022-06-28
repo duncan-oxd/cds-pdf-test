@@ -20,6 +20,8 @@
 
     <p v-if="ready">Ready!</p>
 
+    <div style="box-shadow: 2px 2px 15px black; height: 50px;padding: 4px; width: 50%">this div has a shadow</div>
+
     <div class="page-break" />
 
     <h1>Another page</h1>
