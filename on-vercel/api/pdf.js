@@ -1,3 +1,5 @@
+// Adapted from <https://github.com/whitep4nth3r/puppeteer-demo/blob/main/api/screenshot.js>
+
 // Shout outs to the following repositories:
 
 // https://github.com/vercel/og-image
@@ -47,7 +49,7 @@ async function getOptions(isDev) {
 }
 
 module.exports = async (req, res) => {
-  const pageToScreenshot = 'https://rop-pdf-3.surge.sh/pdf/?id=' + req.query.id;
+  const pageToScreenshot = 'https://cds-pdf-test.vercel.app/pdf/' + req.query.id;
 
   // pass in this parameter if you are developing locally
   // to ensure puppeteer picks up your machine installation of
